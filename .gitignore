@@ -1,0 +1,66 @@
+# macOS系統檔案
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 編輯器和IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Node模組 (如果使用npm/yarn)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# 建置輸出
+dist/
+build/
+out/
+*.min.css
+*.min.js
+
+# 日誌檔案
+logs/
+*.log
+
+# 暫存檔案
+tmp/
+temp/
+*.tmp
+
+# 環境變數
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# 快取
+.cache/
+.sass-cache/
+.parcel-cache/
+
+# 壓縮檔案 (通常不需要版本控制)
+*.zip
+*.tar.gz
+*.rar
+
+# 備份檔案
+*.bak
+*.backup
+
+# CSS預處理器產生的source maps
+*.css.map
+*.js.map
