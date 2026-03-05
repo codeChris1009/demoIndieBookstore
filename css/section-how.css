@@ -94,12 +94,12 @@
 }
 
 /* 圖片靠右時，書頁也靠右 */
-.step-img-box:has(.img-align-right)::before {
+.step-img-box.img-box-right::before {
   left: auto;
   right: -1.2rem;
 }
 
-.step-img-box:has(.img-align-right)::after {
+.step-img-box.img-box-right::after {
   left: auto;
   right: -2rem;
 }
