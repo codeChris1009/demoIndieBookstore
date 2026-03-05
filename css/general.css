@@ -37,8 +37,16 @@ body {
   margin-right: 1.6rem !important;
 }
 
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
 .text-align-right {
   text-align: right;
+}
+
+.text-align-center {
+  text-align: center;
 }
 
 .img-align-right {
