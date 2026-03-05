@@ -17,16 +17,25 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/navigation.css" />
     <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/section-feature.css" />
     <link rel="stylesheet" href="css/section-how.css" />
+    <link rel="stylesheet" href="css/section-book.css" />
 
     <!-- RWD -->
     <link rel="stylesheet" href="css/rwd.css" />
+
+    <!-- svg icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/light/style.css"
+    />
 
     <title>Indie Bookstore</title>
   </head>
   <body>
     <header class="header">
-      <img class="logo" src="img/logo.png" alt="Indie Bookstore Logo" />
+      <img class="header-logo" src="img/logo.png" alt="Indie Bookstore Logo" />
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#">Home</a></li>
@@ -100,9 +109,40 @@
         </div>
       </section>
 
+      <section class="section-feature">
+        <div class="container">
+          <h2 class="subheading subheading-feature">
+            feature publishing house
+          </h2>
+          <div class="feature-logos">
+            <img
+              src="img/publishLogo/penguin-Random.png"
+              alt="Featured in Penguin Books"
+              class="logo-bigger-penguin-random"
+            />
+            <img
+              src="img/publishLogo/graywolfpress.png"
+              alt="Featured in Graywolf Press"
+            />
+            <img
+              src="img/publishLogo/nyrb_logo-pill_92f9c85a-a9a9-4819-99e3-50e416c747f1.avif"
+              alt="Featured in The Guardian"
+            />
+            <img
+              src="img/publishLogo/FireandWaterLogo.jpg"
+              alt="Featured in Fire and Water Publishing"
+            />
+            <img
+              src="img/publishLogo/Simon_and_Schuster.svg.png"
+              alt="Featured in Simon and Schuster"
+            />
+          </div>
+        </div>
+      </section>
+
       <section class="section-how">
         <div class="container">
-          <span class="subheading-how">How to Join</span>
+          <span class="subheading">How to Join</span>
           <h2 class="heading-secondary">
             register for the Event and Prior Preparations
           </h2>
@@ -166,6 +206,108 @@
               alt="Step 3: Attend the event"
               class="step-img img-shadow img-align-right"
             />
+          </div>
+        </div>
+      </section>
+      <section class="section-book">
+        <div class="container">
+          <span class="subheading subheading-book">books recommended</span>
+          <h2 class="heading-secondary heading-secondary-book">
+            handpicked selection books for you both
+          </h2>
+        </div>
+        <div class="container grid grid--3-cols">
+          <div class="book-card">
+            <img
+              src="img/books/great-Gatsby.jpeg"
+              alt="Great Gatsby Cover"
+              class="book-img"
+            />
+
+            <div class="book-content">
+              <span class="book-tag tag-orange">literary-fiction</span>
+              <span class="book-tag tag-blue">classic-fiction</span>
+
+              <p class="book-title">Great Gatsby</p>
+
+              <ul class="book-ul">
+                <li class="book-li">
+                  <i class="ph-light ph-pen-nib book-icon"></i>
+                  <span> Author: F. Scott Fitzgerald</span>
+                </li>
+                <li class="book-li">
+                  <i class="ph-light ph-trophy book-icon"></i>
+                  <span> Time: Quintessentially American Novel Ever</span>
+                </li>
+                <li class="book-li">
+                  <i class="ph-light ph-hash book-icon"></i>
+                  <span> ISBN: 9780143138747</span>
+                </li>
+                <li class="book-li">
+                  <i class="ph-light ph-book-open-text book-icon"></i>
+                  <span> Pages: 320</span>
+                </li>
+                <li class="book-li">
+                  <i class="ph-light ph-frame-corners book-icon"></i>
+                  <span> Dimensions: 5-1/16 x 7-3/4</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="book-card">
+            <img
+              src="img/books/happy-death.jpeg"
+              alt="A Happy Death Cover"
+              class="book-img"
+            />
+
+            <div class="book-content">
+              <span class="book-tag tag-orange">literary-fiction</span>
+
+              <p class="book-title">a happy death</p>
+
+              <ul class="book-ul">
+                <li class="book-li">
+                  <i class="ph-light ph-pen-nib book-icon"></i>
+                  <span> Author: Albert Camus</span>
+                </li>
+                <li class="book-li">
+                  <i class="ph-light ph-trophy book-icon"></i>
+                  <span>Nobel Prize: WINNER 1957</span>
+                </li>
+                <li class="book-li">
+                  <i class="ph-light ph-hash book-icon"></i>
+                  <span> ISBN: 9780679764007</span>
+                </li>
+                <li class="book-li">
+                  <i class="ph-light ph-book-open-text book-icon"></i>
+                  <span> Pages: 208</span>
+                </li>
+                <li class="book-li">
+                  <i class="ph-light ph-frame-corners book-icon"></i>
+                  <span> Dimensions: 5-3/16 x 8</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="books-list">
+            <ul class="books-ul">
+              <div class="flex">
+                <i class="ph-light ph-books"></i>
+                Recommends
+              </div>
+              <li class="books-li">
+                <span>dsad</span>
+              </li>
+              <li class="books-li">
+                <span>dsad</span>
+              </li>
+              <li class="books-li">
+                <span>dsad</span>
+              </li>
+            </ul>
           </div>
         </div>
       </section>

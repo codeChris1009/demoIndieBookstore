@@ -1,0 +1,170 @@
+/**************************************/
+/* SECTION - BOOK */
+/**************************************/
+
+.section-book {
+  padding: 9.6rem 0;
+  background-color: #052c45;
+}
+
+.heading-secondary-book {
+  color: #fff;
+}
+
+/**************************************/
+/* BOOK CARD */
+/**************************************/
+
+.book-card {
+  border-radius: 0.2rem;
+  box-shadow: 0px 0px 10px 1px #023d62e0;
+
+  /* affect rotateGlow animation */
+  /*流動的尖銳度*/
+  padding: 0.4rem;
+  /* 定位 */
+  position: relative;
+  /* 影藏背後選轉的方塊 */
+  overflow: hidden;
+}
+
+.book-card:hover::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #ff9966c9,
+    transparent,
+    transparent,
+    #47e8f0e6,
+    transparent
+  );
+  animation: rotateGlow 5s infinite linear;
+}
+
+/**************************************/
+/* BOOK IMAGE */
+/**************************************/
+.book-img {
+  width: 100%;
+  height: 48rem;
+  object-fit: cover;
+  border-radius: 0.4rem 0.4rem 0 0;
+
+  /* 定位 沒有設定會顯示後方轉動的方塊 */
+  position: relative;
+}
+
+@keyframes rotateGlow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/**************************************/
+/* BOOK CONTENT */
+/**************************************/
+
+.book-content {
+  padding: 0.8rem 1.8rem 1.2rem;
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+  border-radius: 0 0 0.4rem 0.4rem;
+}
+
+.book-title {
+  color: #052c45;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 2;
+  margin-bottom: 1.2rem;
+  text-transform: capitalize;
+}
+
+/**************************************/
+/* TAG */
+/**************************************/
+
+.book-tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 1.2rem;
+}
+
+.tag-orange {
+  background-color: #eb822d;
+  color: #fff;
+}
+
+.tag-blue {
+  background-color: #00b8c1;
+  color: #fff;
+}
+
+/**************************************/
+/* BOOK CONTENT LIST */
+/**************************************/
+.book-ul {
+  color: #333;
+  list-style: none;
+  font-size: 1.2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.book-li {
+  display: flex;
+  align-items: center;
+  gap: 0.4 rem;
+}
+
+.book-icon {
+  font-size: 2rem;
+  color: #eb822d;
+  margin-right: 0.8rem;
+}
+
+.book-li span {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+/**************************************/
+/* BOOKS LIST */
+/**************************************/
+
+.books-ul {
+  list-style: none;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.books-ul i {
+  font-size: 6rem;
+  color: #eb822d;
+}
+
+.books-li {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}

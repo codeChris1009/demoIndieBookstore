@@ -112,3 +112,13 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
 }
+
+.subheading {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #eb822d;
+  margin-bottom: 1.4rem;
+  letter-spacing: 0.4rem;
+}

@@ -1,0 +1,29 @@
+/**************************************/
+/* SECTION - FEATURE */
+/**************************************/
+
+.section-feature {
+  padding: 4.8rem 0 3.2rem;
+}
+
+.subheading-feature {
+  text-align: center;
+}
+
+.feature-logos {
+  display: flex;
+  justify-content: space-around;
+  gap: 4.8rem;
+}
+
+.feature-logos img {
+  height: 8rem;
+  width: auto;
+  object-fit: cover;
+  filter: grayscale(1);
+}
+
+/* fixed */
+.logo-bigger-penguin-random {
+  transform: scale(2);
+}
