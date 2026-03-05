@@ -120,4 +120,9 @@
   height: 90%;
   border-radius: 7px;
   object-fit: cover;
+  transition: all 0.8s ease;
+}
+
+.hero-img:hover {
+  transform: scale(1.1);
 }

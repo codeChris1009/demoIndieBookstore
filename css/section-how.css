@@ -74,21 +74,22 @@
   height: 44rem;
   border-radius: 7px;
   z-index: -1;
+  transition: all 0.8s ease;
 }
 
 .step-img-box::before {
-  top: -1.2rem;
-  left: -1.2rem;
+  top: -2rem;
+  left: -2rem;
   background-color: #e9c6aa;
-  transform: rotate(-2deg);
+  transform: rotate(-12deg);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .step-img-box::after {
-  top: -2rem;
-  left: -2rem;
+  top: -4rem;
+  left: -4rem;
   background-color: #f9e8d9;
-  transform: rotate(-4deg);
+  transform: rotate(-24deg);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
 }
 
@@ -103,11 +104,27 @@
   right: -2rem;
 }
 
+/* Hover 效果：書頁收合（旋轉歸正） */
+.step-img-box:hover::before,
+.step-img-box:hover::after {
+  transform: rotate(0deg);
+}
+
 .step-img {
   width: 55%;
   height: 44rem;
   object-fit: cover;
   border-radius: 7px;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.6s ease;
+  cursor: pointer;
+}
+
+/* Hover 效果：圖片放大 */
+.step-img:hover {
+  transform: scale(1.2);
+
   position: relative;
   z-index: 1;
 }
