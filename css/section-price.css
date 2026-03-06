@@ -1,0 +1,230 @@
+/**************************************/
+/* SECTION - PRICING */
+/**************************************/
+
+.section-pricing {
+  padding: 9.6rem 0;
+  font-weight: 300;
+}
+
+.pricing-plan {
+  padding: 4.8rem;
+  border-radius: 0.7rem;
+  width: 75%;
+  border: #052c45 0.1rem solid;
+}
+.pricing-plan--starter {
+  justify-self: end;
+}
+
+.pricing-plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.pricing-plan-name {
+  color: #f9811e;
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.pricing-plan-price i {
+  font-size: 3.2rem;
+  font-weight: 900;
+  margin-bottom: 0.8rem;
+}
+
+.pricing-plan-price {
+  font-size: 6.2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+
+.pricing-plan-desc {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #333;
+  margin-bottom: 3.2rem;
+}
+
+.pricing-plan-ul {
+  list-style: none;
+  color: #333;
+  font-size: 1.2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
+.pricing-plan-li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6rem;
+}
+
+.pricing-plan-li i {
+  font-size: 2rem;
+  color: #eb822d;
+  margin-right: 0.8rem;
+}
+
+.pricing-plan-li span {
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-left: 0.8rem;
+}
+
+/**************************************/
+/* BUTTON */
+/**************************************/
+
+.pricing-plan-signup {
+  text-align: center;
+  margin-top: 4.8rem;
+}
+
+.btn-signup {
+  padding: 1.6rem 6.4rem;
+  display: inline-block;
+  width: 26rem;
+  color: #333;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1.8rem;
+  text-decoration: none;
+
+  border: 0.1rem solid #eb822d;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  overflow: hidden;
+  z-index: 1;
+
+  transition: all 0.4s;
+}
+
+.btn-signup:hover {
+  color: #fff;
+  border-color: transparent;
+}
+
+.btn-signup::before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #eb822d;
+  transform: translateX(-100%);
+  transition: all 0.4s;
+  z-index: -1;
+}
+
+.btn-signup:hover::before {
+  transform: translateX(0);
+}
+
+/**************************************/
+/* VIP */
+/**************************************/
+
+.pricing-plan--premium {
+  position: relative;
+  padding: 0.4rem;
+  overflow: hidden;
+  border: #e85d75 0.16rem solid;
+  background-color: transparent;
+  box-shadow:
+    0 1rem 1.6rem rgba(20, 10, 8, 0.3),
+    0 1.8rem 3.2rem rgba(15, 8, 6, 0.25),
+    0 3.4rem 6.4rem rgba(10, 5, 4, 0.2),
+    0 5rem 9.6rem rgba(8, 4, 3, 0.15),
+    0 0 3.2rem rgba(139, 35, 20, 0.3),
+    0 0 5.2rem rgba(180, 50, 25, 0.2),
+    0 0 7.2rem rgba(200, 80, 40, 0.15);
+  transform: translateY(-1.2rem);
+  transition: all 0.4s;
+}
+
+.pricing-plan--premium:hover {
+  transform: translateY(-1.2rem) scale(1.06);
+}
+
+.pricing-plan--premium::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: conic-gradient(
+    from 0deg,
+    #ff6b35 0deg,
+    #ff8c42 60deg,
+    #ffa94d 90deg,
+    #ffc857 120deg,
+    #ffdd67 150deg,
+    #ffc857 180deg,
+    #ffa94d 210deg,
+    #ff8c42 240deg,
+    #ff6b35 300deg,
+    #e85d75 330deg,
+    #ff6b35 360deg
+  );
+  z-index: 0;
+  scale: 1.09;
+  opacity: 0.8;
+  animation: rotateBorder 6.6s linear infinite;
+}
+
+.pricing-plan-inner {
+  background-color: #fbf3ec;
+  border: 0.14rem solid #ffa94d;
+  border-radius: 0.4rem;
+  padding: 4.4rem;
+  position: relative;
+}
+
+@keyframes rotateBorder {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.pricing-plan--premium::after {
+  position: absolute;
+  z-index: 2;
+  content: "bookaholic";
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+
+  padding: 0.8rem 3.2rem;
+  top: 7.9%;
+  right: -9.6%;
+
+  background-image: linear-gradient(
+    45deg,
+    #ff6547 0%,
+    #ffb144 51%,
+    #ff7053 100%
+  );
+  filter: drop-shadow(0 0 0.2rem #ff6547) drop-shadow(0 0 0.3rem #ff8c42)
+    drop-shadow(0 0 0.4rem #ffa94d) drop-shadow(0 0 0.5rem #ffc857)
+    drop-shadow(0 0 0.6rem #ffdd67);
+  transform: rotate(40deg);
+}
