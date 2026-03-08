@@ -14,8 +14,23 @@ Small desktop */
     font-size: 4.4rem;
   }
 
+  .section-testimonial {
+    grid-template-columns: 1fr;
+  }
+
   .testimonial-gallery {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    height: 20rem;
+    margin: 0 2.4rem;
+    padding-bottom: 48rem;
+  }
+
+  .call-action-imgbox {
+    transform: scale(1);
+  }
+
+  .call-action-imgbox:hover {
+    transform: scale(1.03);
   }
 }
 
@@ -55,6 +70,18 @@ Landscape Tablet */
   .testimonial-container {
     padding: 9.6rem 3.2rem;
   }
+
+  .testimonial-gallery {
+    height: 16rem;
+  }
+}
+
+/* Extra Below 1100px
+ book section */
+@media (max-width: 68.75em) {
+  .book-content {
+    min-height: 36rem;
+  }
 }
 
 /* Below 944px
@@ -91,15 +118,6 @@ Tablet */
 
   .step-number {
     font-size: 7.4rem;
-  }
-
-  .section-testimonial {
-    grid-template-columns: 1fr;
-  }
-
-  .testimonial-gallery {
-    grid-template-columns: repeat(6, 1fr);
-    margin: 0 2.4rem;
   }
 
   .pricing-plan-li span {
@@ -148,5 +166,102 @@ Tablet */
   .call-action-form {
     grid-template-columns: 1fr;
     row-gap: 1.8rem;
+  }
+
+  /* book section */
+  .section-book .grid--3-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .book-img {
+    height: auto;
+    aspect-ratio: 2 / 3;
+  }
+
+  .books-list {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .book-content {
+    min-height: auto;
+  }
+}
+
+/* Extra Below 850px
+Pricing */
+
+@media (max-width: 53.125em) {
+  .section-pricing .grid--2-cols {
+    grid-template-columns: 1fr;
+    row-gap: 9.6rem;
+  }
+
+  .pricing-plan {
+    width: 100%;
+    max-width: 42rem;
+    justify-self: center;
+    margin-bottom: 4.8rem;
+  }
+
+  .pricing-plan--starter {
+    justify-self: center;
+  }
+
+  .pricing-plan-ul {
+    align-items: center;
+  }
+
+  .pricing-plan-li {
+    margin-left: 0;
+  }
+
+  .btn-signup {
+    width: 100%;
+    max-width: 26rem;
+  }
+}
+
+/* Extra Below 744px
+Footer */
+
+@media (max-width: 46.5em) {
+  .section-footer {
+    padding: 4.8rem 0;
+    text-align: center;
+  }
+
+  .grid--footer {
+    grid-template-columns: 1fr;
+    row-gap: 3.2rem;
+    justify-items: center;
+  }
+
+  .footer-logo-col {
+    grid-row: 1;
+    align-items: center;
+  }
+
+  .footer-contact-col {
+    grid-row: 2;
+    align-items: center;
+  }
+
+  .footer-contacts {
+    align-items: center;
+  }
+
+  .footer-social-ul-links {
+    justify-content: center;
+  }
+
+  .footer-nav-col {
+    margin-bottom: 0;
+  }
+
+  .footer-nav-ul {
+    align-items: center;
   }
 }
