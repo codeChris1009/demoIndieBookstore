@@ -1,0 +1,20 @@
+/**************************************/
+/* MOBILE */
+/**************************************/
+
+.mobile-btn-nav {
+  cursor: pointer;
+
+  border: none;
+  background: none;
+  display: none;
+}
+
+.mobile-nav-icon {
+  font-size: 4.8rem;
+  color: #f5eedc;
+}
+
+.mobile-nav-icon[name="close"] {
+  display: none;
+}
