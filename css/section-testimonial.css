@@ -63,7 +63,6 @@
   border-radius: 0.7rem;
   transform: skewX(-2.4deg);
   transition: all 0.5s ease;
-  position: relative;
 }
 
 .testimonial-gallery-item img:hover {
