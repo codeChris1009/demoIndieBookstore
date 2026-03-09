@@ -546,7 +546,7 @@ z-index 層級說明：
 ### CSS Architecture CSS 架構
 
 - **模組化設計** - 依功能拆分 CSS 檔案
-- **Desktop-First** - 優先考慮移動端體驗
+- **Desktop-First** - 優先考慮桌機端體驗
 - **Block-Element-Modifier (BEM) 命名** - 部分採用 BEM 規範
 
 ### Performance Optimization 效能優化
