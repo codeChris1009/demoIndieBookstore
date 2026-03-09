@@ -88,6 +88,10 @@ Landscape Tablet */
 Tablet */
 
 @media (max-width: 59em) {
+  section {
+    scroll-margin-top: 12rem;
+  }
+
   html {
     font-size: 50%;
   }
@@ -188,11 +192,15 @@ Tablet */
   .book-content {
     min-height: auto;
   }
-}
 
-/* MOBILE Below 944px */
+  /* MOBILE NAVIGATION */
 
-@media (max-width: 59em) {
+  .header {
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 9.6rem;
+  }
+
   .mobile-btn-nav {
     display: block;
     z-index: 99;
@@ -203,39 +211,43 @@ Tablet */
   }
 
   .main-nav {
-    background-color: #052c45;
-    position: absolute;
-    top: 0;
-    left: 0;
+    background-color: rgba(5, 44, 69, 0.97);
     width: 100%;
-    height: 100vh;
+    order: 3;
 
-    transform: translateX(100%);
+    max-height: 0;
+    overflow: hidden;
+
+    transition:
+      max-height 0.5s ease-in-out,
+      padding 0.5s ease-in-out;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    /* Hide navigation */
-    /* 1. Allow NO transition at all */
-    transition: all 0.5s ease-in-out;
+    padding: 0;
+  }
 
-    /* 2. Hide it visually */
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+
+    transform: translateX(100%);
     opacity: 0;
-
-    /* 3. Make it unaccessible to use mouse or keyboard */
-    pointer-events: none;
-
-    /* 4. Hide it from screen readers */
-    visibility: hidden;
+    transition:
+      transform 0.5s ease-in-out,
+      opacity 0.5s ease-in-out;
   }
 
   .nav-open .main-nav {
-    opacity: 1;
-    pointer-events: auto;
-    visibility: visible;
+    max-height: 50rem;
+    padding: 4.8rem 0;
+  }
 
+  .nav-open .main-nav-list {
     transform: translateX(0);
+    opacity: 1;
   }
 
   /* Switch icon */
@@ -247,11 +259,6 @@ Tablet */
   }
 
   /* Dropdown Navigation */
-
-  .main-nav-list {
-    flex-direction: column;
-    gap: 4.8rem;
-  }
 
   .main-nav-link:link,
   .main-nav-link:visited {
@@ -370,6 +377,10 @@ BOOK */
 PHONES */
 
 @media (max-width: 27.5em) {
+  section {
+    scroll-margin-top: 48rem;
+  }
+
   .grid {
     gap: 4.8rem;
   }
