@@ -2,7 +2,7 @@
 
 > 一個專為獨立書店、在地商家、優質出版社與寵物友善商家聯合舉辦的溫馨活動網站
 
-**GitHub Page **：[https://codechris1009.github.io/demoIndieBookstore/](https://codechris1009.github.io/demoIndieBookstore/)
+**GitHub Page**：[https://codechris1009.github.io/demoIndieBookstore/](https://codechris1009.github.io/demoIndieBookstore/)
 
 > **注意**：本 README 使用 [Phosphor Icons](https://phosphoricons.com/) 圖示庫。若在 GitHub 上無法正常顯示圖示，請下載後使用支援 HTML 的 Markdown 檢視器，或訪問專案網站查看完整效果。圖示 CDN：`https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/light/style.css`
 
