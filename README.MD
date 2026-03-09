@@ -564,19 +564,19 @@ z-index 層級說明：
 demoIndieBookstore/
 ├── index.html                 # 主要 HTML 檔案
 ├── css/
-│   ├── general.css           # 全域樣式、工具類別
-│   ├── header.css            # Header 樣式
-│   ├── navigation.css        # 導航欄樣式（含 sticky）
-│   ├── hero.css              # Hero 區塊樣式
-│   ├── section-feature.css   # 特色區塊樣式
-│   ├── section-how.css       # 步驟說明區塊
-│   ├── section-book.css      # 書籍推薦區塊
-│   ├── section-testimonial.css # 見證區塊
-│   ├── section-price.css     # 價格方案區塊
-│   ├── section-call-action.css # 行動呼籲區塊
-│   ├── footer.css            # Footer 樣式
-│   ├── mobile.css            # 移動端專用樣式
-│   └── rwd.css               # 響應式斷點設定
+│   ├── general.css              # 全域樣式、工具類別
+│   ├── header.css               # Header 樣式
+│   ├── navigation.css           # 導航欄樣式（含 sticky）
+│   ├── hero.css                 # Hero 區塊樣式
+│   ├── section-feature.css      # 特色區塊樣式
+│   ├── section-how.css          # 步驟說明區塊
+│   ├── section-book.css         # 書籍推薦區塊
+│   ├── section-testimonial.css  # 見證區塊
+│   ├── section-price.css        # 價格方案區塊
+│   ├── section-call-action.css  # 行動呼籲區塊
+│   ├── footer.css               # Footer 樣式
+│   ├── mobile.css               # 移動端專用樣式
+│   └── rwd.css                  # 響應式斷點設定
 ├── js/
 │   └── script.js             # 互動功能（導航、滾動）
 └── img/
