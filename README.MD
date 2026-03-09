@@ -1,27 +1,27 @@
-# <i class="ph-light ph-paw"></i> Padi Bookstore Event Website
+# <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/paw-print-light.svg" width="32" height="32" align="center" /> Padi Bookstore Event Website
 
 > 一個專為獨立書店、在地商家、優質出版社與寵物友善商家聯合舉辦的溫馨活動網站
 
 **GitHub Page**：[https://codechris1009.github.io/demoIndieBookstore/](https://codechris1009.github.io/demoIndieBookstore/)
 
-> **注意**：本 README 使用 [Phosphor Icons](https://phosphoricons.com/) 圖示庫。若在 GitHub 上無法正常顯示圖示，請下載後使用支援 HTML 的 Markdown 檢視器，或訪問專案網站查看完整效果。圖示 CDN：`https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/light/style.css`
+> **說明**：本 README 使用 [Phosphor Icons](https://phosphoricons.com/) 圖示庫，所有圖標透過 jsDelivr CDN 載入 SVG 格式。
 
 ---
 
-## <i class="ph-light ph-info"></i> Project Introduction 專案簡介
+## <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/info-light.svg" width="24" height="24" align="center" /> Project Introduction 專案簡介
 
 Padi Bookstore Event 是一個結合**閱讀分享**、**夥伴陪伴**、**美好食物**與**在地商業連結**的活動平台。我們相信好書需要被分享，寵物是最溫暖的閱讀夥伴，而獨立書店與在地商家是社區文化的重要推手。
 
-### <i class="ph-light ph-target"></i> Core Values 活動核心價值
+### <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/target-light.svg" width="20" height="20" align="center" /> Core Values 活動核心價值
 
-- **<i class="ph-light ph-books"></i> 分享書籍** - 精選獨立出版社的優質作品
-- **<i class="ph-light ph-dog"></i> 夥伴陪伴** - 寵物友善空間，與毛孩一起閱讀
-- **<i class="ph-light ph-fork-knife"></i> 美好食物** - 結合在地餐飲，創造完整體驗
-- **<i class="ph-light ph-handshake"></i> 商業連結** - 串聯獨立書店、出版社、在地商家
+- **<img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/books-light.svg" width="18" height="18" align="center" /> 分享書籍** - 精選獨立出版社的優質作品
+- **<img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/dog-light.svg" width="18" height="18" align="center" /> 夥伴陪伴** - 寵物友善空間，與毛孩一起閱讀
+- **<img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/fork-knife-light.svg" width="18" height="18" align="center" /> 美好食物** - 結合在地餐飲，創造完整體驗
+- **<img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/handshake-light.svg" width="18" height="18" align="center" /> 商業連結** - 串聯獨立書店、出版社、在地商家
 
 ---
 
-## <i class="ph-light ph-sparkle"></i> Core Features & Animation Principles 核心功能與動畫原理
+## <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/sparkle-light.svg" width="24" height="24" align="center" /> Core Features & Animation Principles 核心功能與動畫原理
 
 ### 1. Sticky Navigation 智能固定導航
 
@@ -343,7 +343,7 @@ sips -Z 800 --setProperty formatOptions 70 gallery-image.jpg
 
 Premium 方案卡片結合了**旋轉動畫外框**、**夕陽漸變配色**與**飄帶裝飾標籤**，創造出視覺上的層次感與吸引力。
 
-#### <i class="ph-light ph-circle-dashed"></i> 旋轉動畫外框
+#### <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/circle-dashed-light.svg" width="20" height="20" align="center" /> 旋轉動畫外框
 
 **技術原理：**
 
@@ -405,7 +405,7 @@ Premium 方案卡片結合了**旋轉動畫外框**、**夕陽漸變配色**與*
 
 ---
 
-#### <i class="ph-light ph-sun-horizon"></i> 夕陽配色特效
+#### <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/sun-horizon-light.svg" width="20" height="20" align="center" /> 夕陽配色特效
 
 **技術原理：**
 
@@ -450,7 +450,7 @@ Premium 方案卡片結合了**旋轉動畫外框**、**夕陽漸變配色**與*
 
 ---
 
-#### <i class="ph-light ph-flag-banner"></i> 飄帶裝飾標籤
+#### <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/flag-banner-light.svg" width="20" height="20" align="center" /> 飄帶裝飾標籤
 
 **技術原理：**
 
@@ -521,7 +521,7 @@ z-index 層級說明：
 
 ---
 
-## <i class="ph-light ph-palette"></i> Responsive Design Breakpoints 響應式設計斷點
+## <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/palette-light.svg" width="24" height="24" align="center" /> Responsive Design Breakpoints 響應式設計斷點
 
 | 斷點         | 尺寸   | 目標設備 | 主要調整                 |
 | ------------ | ------ | -------- | ------------------------ |
@@ -535,7 +535,7 @@ z-index 層級說明：
 
 ---
 
-## <i class="ph-light ph-wrench"></i> Tech Stack 技術棧
+## <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/wrench-light.svg" width="24" height="24" align="center" /> Tech Stack 技術棧
 
 ### Frontend Core 前端核心
 
@@ -558,7 +558,7 @@ z-index 層級說明：
 
 ---
 
-## <i class="ph-light ph-folder"></i> Project Structure 專案結構
+## <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/folder-light.svg" width="24" height="24" align="center" /> Project Structure 專案結構
 
 ```
 demoIndieBookstore/
@@ -591,7 +591,7 @@ demoIndieBookstore/
 
 ---
 
-## <i class="ph-light ph-rocket"></i> Quick Start 快速開始
+## <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/rocket-light.svg" width="24" height="24" align="center" /> Quick Start 快速開始
 
 ### Local Development 本地運行
 
@@ -622,41 +622,41 @@ http://localhost:8000
 
 ---
 
-## <i class="ph-light ph-target"></i> Main Feature Sections 主要功能區塊
+## <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/target-light.svg" width="24" height="24" align="center" /> Main Feature Sections 主要功能區塊
 
-### <i class="ph-light ph-house"></i> Hero Section
+### <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/house-light.svg" width="20" height="20" align="center" /> Hero Section
 
 - 吸睛標題與活動宣傳
 - 讀者見證小頭像（1,000,000+ 參與者）
 - 雙 CTA 按鈕（立即閱讀、更多資訊）
 - 大型主視覺圖片
 
-### <i class="ph-light ph-books"></i> Books Section
+### <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/books-light.svg" width="20" height="20" align="center" /> Books Section
 
 - 精選書籍卡片展示
 - 詳細書籍資訊（作者、得獎紀錄、ISBN、頁數、尺寸）
 - 標籤分類（文學小說、經典小說）
 - 推薦書單快速連結
 
-### <i class="ph-light ph-footprints"></i> How It Works Section
+### <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/footprints-light.svg" width="20" height="20" align="center" /> How It Works Section
 
 - 三步驟流程說明
 - 圖文並茂的步驟說明
 - 裝飾性偽元素增加視覺吸引力
 
-### <i class="ph-light ph-chat"></i> Testimonial Section
+### <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/chat-light.svg" width="20" height="20" align="center" /> Testimonial Section
 
 - 真實讀者與毛孩分享
 - 12 張活動照片畫廊
 - 寵物友善氛圍展示
 
-### <i class="ph-light ph-currency-dollar"></i> Pricing Section
+### <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/currency-dollar-light.svg" width="20" height="20" align="center" /> Pricing Section
 
 - 兩種定價方案（入門版、完整版）
 - 清晰的功能對比
 - CTA 按鈕引導註冊
 
-### <i class="ph-light ph-envelope"></i> Call to Action Section
+### <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/envelope-light.svg" width="20" height="20" align="center" /> Call to Action Section
 
 - 活動註冊表單
 - 收集姓名、Email、偏好資訊
@@ -664,9 +664,9 @@ http://localhost:8000
 
 ---
 
-## <i class="ph-light ph-bug"></i> Known Issues & Solutions 已知問題與解決方案
+## <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/bug-light.svg" width="24" height="24" align="center" /> Known Issues & Solutions 已知問題與解決方案
 
-### <i class="ph-light ph-check"></i> Resolved 已解決
+### <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/check-light.svg" width="20" height="20" align="center" /> Resolved 已解決
 
 1. **Sticky Header 遮擋錨點**
    - 使用 `scroll-margin-top` 解決
@@ -689,18 +689,18 @@ http://localhost:8000
 
 ---
 
-## <i class="ph-light ph-chart-bar"></i> Lighthouse Score Lighthouse 分數
+## <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/chart-bar-light.svg" width="24" height="24" align="center" /> Lighthouse Score Lighthouse 分數
 
 優化後預期分數：
 
-- **Performance**: 90+ <i class="ph-light ph-lightning"></i>
-- **Accessibility**: 95+ <i class="ph-light ph-user-focus"></i>
-- **Best Practices**: 95+ <i class="ph-light ph-check-circle"></i>
-- **SEO**: 100 <i class="ph-light ph-magnifying-glass"></i>
+- **Performance**: 90+ <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/lightning-light.svg" width="18" height="18" align="center" />
+- **Accessibility**: 95+ <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/user-focus-light.svg" width="18" height="18" align="center" />
+- **Best Practices**: 95+ <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/check-circle-light.svg" width="18" height="18" align="center" />
+- **SEO**: 100 <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/magnifying-glass-light.svg" width="18" height="18" align="center" />
 
 ---
 
-## <i class="ph-light ph-handshake"></i> Partners 合作夥伴
+## <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/handshake-light.svg" width="24" height="24" align="center" /> Partners 合作夥伴
 
 > **免責聲明**：本專案為展示用途 (Demo)，所有出版社名稱已改為代名，並無實際商業合作關係。
 
@@ -719,7 +719,7 @@ http://localhost:8000
 
 ---
 
-## <i class="ph-light ph-notebook"></i> Development Notes 開發筆記
+## <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/notebook-light.svg" width="24" height="24" align="center" /> Development Notes 開發筆記
 
 ### CSS Naming Convention CSS 命名規則
 
@@ -742,7 +742,7 @@ http://localhost:8000
 
 ---
 
-## <i class="ph-light ph-file-text"></i> License 授權
+## <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/file-text-light.svg" width="24" height="24" align="center" /> License 授權
 
 本專案為展示用途 (Demo)，圖片與素材來源：
 
@@ -755,13 +755,15 @@ http://localhost:8000
 
 ---
 
-## <i class="ph-light ph-user-gear"></i> Developer 開發者
+## <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/user-gear-light.svg" width="24" height="24" align="center" /> Developer 開發者
 
 開發日期：2026 年 3 月
+<br/>
+susx alan
 
 ---
 
-## <i class="ph-light ph-graduation-cap"></i> Reference Resources 參考資源
+## <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/graduation-cap-light.svg" width="24" height="24" align="center" /> Reference Resources 參考資源
 
 本專案開發過程中參考了以下優質教學資源：
 
@@ -772,10 +774,10 @@ http://localhost:8000
 
 ---
 
-## <i class="ph-light ph-star"></i> Special Thanks 特別感謝
+## <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/star-light.svg" width="24" height="24" align="center" /> Special Thanks 特別感謝
 
 感謝所有支持獨立書店、寵物友善商家、在地出版社的朋友們。讓我們一起創造更溫暖的閱讀與社區連結！
 
 ---
 
-**<i class="ph-light ph-paw"></i> Padi Bookstore - Where Books Meet Buddies <i class="ph-light ph-books"></i>**
+**<img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/house-line-light.svg" width="20" height="20" align="center" /> Padi Bookstore - Where Books Meet Buddies <img src="https://cdn.jsdelivr.net/gh/phosphor-icons/core@main/assets/light/books-light.svg" width="20" height="20" align="center" />**
