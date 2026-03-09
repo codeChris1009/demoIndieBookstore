@@ -2,13 +2,13 @@
 
 > 一個專為獨立書店、在地商家、優質出版社與寵物友善商家聯合舉辦的溫馨活動網站
 
-**🌐 線上展示**：[https://codechris1009.github.io/demoIndieBookstore/](https://codechris1009.github.io/demoIndieBookstore/)
+**GitHub Page **：[https://codechris1009.github.io/demoIndieBookstore/](https://codechris1009.github.io/demoIndieBookstore/)
 
 > **注意**：本 README 使用 [Phosphor Icons](https://phosphoricons.com/) 圖示庫。若在 GitHub 上無法正常顯示圖示，請下載後使用支援 HTML 的 Markdown 檢視器，或訪問專案網站查看完整效果。圖示 CDN：`https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/light/style.css`
 
 ---
 
-## <i class="ph-light ph-book-open"></i> Project Introduction 專案簡介
+## <i class="ph-light ph-info"></i> Project Introduction 專案簡介
 
 Padi Bookstore Event 是一個結合**閱讀分享**、**夥伴陪伴**、**美好食物**與**在地商業連結**的活動平台。我們相信好書需要被分享，寵物是最溫暖的閱讀夥伴，而獨立書店與在地商家是社區文化的重要推手。
 
