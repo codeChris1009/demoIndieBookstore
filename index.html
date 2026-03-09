@@ -2,7 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
+    <meta
+      name="description"
+      content="demo Indie Bookstore - Your local independent bookshop offering a wide selection of books from indie authors and publishers."
+    />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/hero/logo.png" type="image/png" />
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -44,21 +52,26 @@
   <body>
     <!-- fot lecture test -->
     <!-- <header class="header nav-open"> -->
-    <header class="header">
+    <header class="header sticky">
       <a href="">
         <img
           class="header-logo"
           src="img/hero/logo.png"
           alt="Indie Bookstore Logo"
+          width="92"
+          height="92"
         />
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">Home</a></li>
-          <li><a class="main-nav-link" href="#">Books</a></li>
-          <li><a class="main-nav-link" href="#">Authors</a></li>
-          <li><a class="main-nav-link" href="#">Events</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Contact</a></li>
+          <li><a class="main-nav-link" href="#hero">Home</a></li>
+          <li><a class="main-nav-link" href="#books">Books</a></li>
+          <li><a class="main-nav-link" href="#how-step">How It Works</a></li>
+          <li><a class="main-nav-link" href="#testimonial">Testimonials</a></li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#footer">Contact</a>
+          </li>
         </ul>
       </nav>
       <button class="mobile-btn-nav">
@@ -67,7 +80,7 @@
       </button>
     </header>
     <main>
-      <section class="section-hero">
+      <section class="section-hero" id="hero">
         <div class="hero">
           <div class="hero-text-box">
             <h1 class="heading-primary">
@@ -81,35 +94,55 @@
               Come visit us today and support independent bookstores!
             </p>
 
-            <a href="#" class="btn btn-read margin-right-sm">READ NOw</a>
+            <a href="#call-action" class="btn btn-read margin-right-sm"
+              >READ NOw</a
+            >
 
-            <a href="#" class="btn btn-info">MOrE INFO</a>
+            <a href="#pricing-detail" class="btn btn-info">MOrE INFO</a>
 
             <div class="reader-container">
               <div class="reader-imgs">
                 <img
                   src="img/hero/elin-melaas-EbCU9OJWCQk-unsplash.jpg"
                   alt="reader with buddy 1"
+                  width="640"
+                  height="427"
+                  loading="lazy"
                 />
                 <img
                   src="img/hero/jeshoots-com-_kRH3sx-__A-unsplash.jpg"
                   alt="reader with buddy 2"
+                  width="640"
+                  height="427"
+                  loading="lazy"
                 />
                 <img
                   src="img/hero/jonas-leupe-yFV72iFQltA-unsplash.jpg"
                   alt="reader with buddy 3"
+                  width="640"
+                  height="427"
+                  loading="lazy"
                 />
                 <img
                   src="img/hero/kristina-ryaguzova-P91OdcRRL5Q-unsplash.jpg"
                   alt="reader with buddy 4"
+                  width="640"
+                  height="427"
+                  loading="lazy"
                 />
                 <img
                   src="img/hero/vitaly-gariev-DH0rzKMN9hY-unsplash.jpg"
                   alt="reader with buddy 5"
+                  width="640"
+                  height="427"
+                  loading="lazy"
                 />
                 <img
                   src="img/hero/vitaly-gariev-z2GQyICOn1g-unsplash.jpg"
                   alt="reader with buddy 6"
+                  width="640"
+                  height="427"
+                  loading="lazy"
                 />
               </div>
               <p class="reader-paragraph">
@@ -124,6 +157,9 @@
               src="img/hero/pexels-polina-zimmerman-3747468.jpg"
               alt="A person reading a book in a cozy bookstore"
               class="hero-img img-shadow"
+              width="1920"
+              height="1280"
+              fetchpriority="high"
             />
           </div>
         </div>
@@ -139,28 +175,43 @@
               src="img/publishLogo/penguin-Random.png"
               alt="Featured in Penguin Books"
               class="logo-bigger-penguin-random"
+              width="200"
+              height="48"
+              loading="lazy"
             />
             <img
               src="img/publishLogo/graywolfpress.png"
               alt="Featured in Graywolf Press"
+              width="150"
+              height="48"
+              loading="lazy"
             />
             <img
               src="img/publishLogo/nyrb_logo-pill_92f9c85a-a9a9-4819-99e3-50e416c747f1.avif"
               alt="Featured in The Guardian"
+              width="120"
+              height="48"
+              loading="lazy"
             />
             <img
               src="img/publishLogo/FireandWaterLogo.jpg"
               alt="Featured in Fire and Water Publishing"
+              width="120"
+              height="48"
+              loading="lazy"
             />
             <img
               src="img/publishLogo/Simon_and_Schuster.svg.png"
               alt="Featured in Simon and Schuster"
+              width="150"
+              height="48"
+              loading="lazy"
             />
           </div>
         </div>
       </section>
 
-      <section class="section-how">
+      <section class="section-how" id="how-step">
         <div class="container">
           <span class="subheading">How to Join</span>
           <h2 class="heading-secondary">
@@ -185,6 +236,9 @@
               src="img/howStep/ashley-byrd-KVby0S0GaH4-unsplash.jpg"
               alt="Step 1: Register for the event"
               class="step-img img-shadow img-align-right"
+              width="1200"
+              height="800"
+              loading="lazy"
             />
           </div>
 
@@ -194,6 +248,9 @@
               src="img/howStep/nathalie-stimpfl-EDKWnb-kZV4-unsplash.jpg"
               alt="Step 2: Prepare for the event"
               class="step-img img-shadow"
+              width="1200"
+              height="800"
+              loading="lazy"
             />
           </div>
           <div class="step-text-box">
@@ -225,11 +282,14 @@
               src="img/howStep/shahrooz-rabbani-NlZlY2yE4us-unsplash.jpg"
               alt="Step 3: Attend the event"
               class="step-img img-shadow img-align-right"
+              width="1200"
+              height="800"
+              loading="lazy"
             />
           </div>
         </div>
       </section>
-      <section class="section-book">
+      <section class="section-book" id="books">
         <div class="container text-align-center">
           <span class="subheading subheading-book">books recommended</span>
           <h2 class="heading-secondary heading-secondary-book">
@@ -242,6 +302,9 @@
               src="img/books/great-Gatsby.jpeg"
               alt="Great Gatsby Cover"
               class="book-img"
+              width="457"
+              height="700"
+              loading="lazy"
             />
 
             <div class="book-content">
@@ -280,6 +343,9 @@
               src="img/books/happy-death.jpeg"
               alt="A Happy Death Cover"
               class="book-img"
+              width="453"
+              height="700"
+              loading="lazy"
             />
 
             <div class="book-content">
@@ -365,7 +431,7 @@
         </section>
       </section>
 
-      <section class="section-testimonial">
+      <section class="section-testimonial" id="testimonial">
         <div class="testimonial-container">
           <span class="subheading">testimonials</span>
           <h2 class="heading-secondary">
@@ -378,6 +444,9 @@
                 class="testimonial-img"
                 src="img/testimonial/milada-vigerova-DRNS6gfUI8M-unsplash.jpg"
                 alt="a gentlecat reading a book in a cozy bookstore"
+                width="666"
+                height="1000"
+                loading="lazy"
               />
               <blockquote class="testimonial-quote">
                 I had such wonderful experience the Padi Bookstore Event! The
@@ -391,6 +460,9 @@
                 class="testimonial-img"
                 src="img/testimonial/anthony-tran-3TCrqSnSHeU-unsplash.jpg"
                 alt="a reading girl with plant in a cozy bookstore"
+                width="666"
+                height="1000"
+                loading="lazy"
               />
               <blockquote class="testimonial-quote">
                 The Padi Bookstore Event was an absolute delight! The selection
@@ -404,6 +476,9 @@
                 class="testimonial-img"
                 src="img/testimonial/bundo-kim-t0cvv-jbPSg-unsplash.jpg"
                 alt="a sunny dog taking a nap while reading a book in a cozy bookstore"
+                width="750"
+                height="1000"
+                loading="lazy"
               />
               <blockquote class="testimonial-quote">
                 My dog absolutely loves visiting Padi Bookstore! The warm
@@ -417,6 +492,9 @@
                 class="testimonial-img"
                 src="img/testimonial/sincerely-media-wuliPWHHy8M-unsplash.jpg"
                 alt="a girl reading literature book in a cozy bookstore"
+                width="750"
+                height="1000"
+                loading="lazy"
               />
               <blockquote class="testimonial-quote">
                 Padi Bookstore has become my sanctuary. The carefully curated
@@ -431,78 +509,114 @@
             <img
               src="img/gallery/christina-terzidou-GLxdq0uE0l8-unsplash.jpg"
               alt="testimonial-gallery-item-1"
+              width="533"
+              height="800"
+              loading="lazy"
             />
           </figure>
           <figure class="testimonial-gallery-item">
             <img
               src="img/gallery/ethan-chan-eTFv05QDHnQ-unsplash.jpg"
               alt="testimonial-gallery-item-2"
+              width="678"
+              height="800"
+              loading="lazy"
             />
           </figure>
           <figure class="testimonial-gallery-item">
             <img
               src="img/gallery/evonne-yuwen-teoh-zg5ubBb50zM-unsplash.jpg"
               alt="testimonial-gallery-item-3"
+              width="600"
+              height="800"
+              loading="lazy"
             />
           </figure>
           <figure class="testimonial-gallery-item">
             <img
               src="img/gallery/farnaz-kohankhaki-RDRDwRlnyn8-unsplash.jpg"
               alt="testimonial-gallery-item-4"
+              width="640"
+              height="800"
+              loading="lazy"
             />
           </figure>
           <figure class="testimonial-gallery-item">
             <img
               src="img/gallery/vlad-kutepov-5LTEqT7IGIk-unsplash.jpg"
               alt="testimonial-gallery-item-5"
+              width="600"
+              height="800"
+              loading="lazy"
             />
           </figure>
           <figure class="testimonial-gallery-item">
             <img
               src="img/gallery/syria-polidoro-9l13dcoDb_M-unsplash.jpg"
               alt="testimonial-gallery-item-6"
+              width="600"
+              height="800"
+              loading="lazy"
             />
           </figure>
           <figure class="testimonial-gallery-item">
             <img
               src="img/gallery/richard-stachmann-VSBW29uKqdw-unsplash.jpg"
               alt="testimonial-gallery-item-7"
+              width="600"
+              height="800"
+              loading="lazy"
             />
           </figure>
           <figure class="testimonial-gallery-item">
             <img
               src="img/gallery/febri-adiawarja-taotnsPRBeM-unsplash.jpg"
               alt="testimonial-gallery-item-8"
+              width="533"
+              height="800"
+              loading="lazy"
             />
           </figure>
           <figure class="testimonial-gallery-item">
             <img
               src="img/gallery/kate-bezzubets-w2h5TeMdB88-unsplash.jpg"
               alt="testimonial-gallery-item-9"
+              width="600"
+              height="800"
+              loading="lazy"
             />
           </figure>
           <figure class="testimonial-gallery-item">
             <img
               src="img/gallery/lasse-jensen-84mFDd6bZG4-unsplash.jpg"
               alt="testimonial-gallery-item-10"
+              width="600"
+              height="800"
+              loading="lazy"
             />
           </figure>
           <figure class="testimonial-gallery-item">
             <img
               src="img/gallery/lea-a0c5CADDrNY-unsplash.jpg"
               alt="testimonial-gallery-item-11"
+              width="600"
+              height="800"
+              loading="lazy"
             />
           </figure>
           <figure class="testimonial-gallery-item">
             <img
               src="img/gallery/maria-ivanova-lPjPMT8a37Y-unsplash.jpg"
               alt="testimonial-gallery-item-12"
+              width="600"
+              height="800"
+              loading="lazy"
             />
           </figure>
         </div>
       </section>
 
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container text-align-center">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">Choose Your Plan</h2>
@@ -576,7 +690,7 @@
           </div>
         </div>
 
-        <div class="container grid">
+        <div class="container grid" id="pricing-detail">
           <aside class="pricing-plan-detail">
             All plans include access to all events,
             <br />
@@ -623,7 +737,7 @@
         </div>
       </section>
 
-      <section class="section-call-action">
+      <section class="section-call-action" id="call-action">
         <div class="container">
           <div class="call-action">
             <div class="call-action-textbox">
@@ -685,7 +799,7 @@
         </div>
       </section>
     </main>
-    <footer class="section-footer">
+    <footer class="section-footer" id="footer">
       <div class="container grid grid--footer">
         <div class="footer-logo-col">
           <a href="" class="footer-logo">
@@ -693,6 +807,8 @@
               class="header-logo"
               src="img/hero/logo.png"
               alt="Indie Bookstore Logo"
+              width="92"
+              height="92"
             />
           </a>
           <ul class="footer-social-ul-links">
@@ -718,7 +834,8 @@
             </li>
           </ul>
           <p class="copyright">
-            Copyright &copy; 2027 Indie Bookstore. Inc.
+            Copyright &copy; <span class="copy-year"></span> Indie Bookstore.
+            Inc.
             <br />
             All rights reserved.
           </p>
@@ -770,5 +887,8 @@
         </nav>
       </div>
     </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
   </body>
 </html>
